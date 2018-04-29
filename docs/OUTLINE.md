@@ -139,14 +139,14 @@ https://www.w3.org/TR/2011/WD-html5-20110525/content-models.html#kinds-of-conten
 - [Linguagem de Estilo](https://ifpb.github.io/css-guide/style/)
   - Definição e exemplos
 - [Cascade Style Sheet (CSS)](https://ifpb.github.io/css-guide/css/)
-  - [Origem do CSS](https://ifpb.github.io/css-guide/css/#problem)
-  - [Declarações do CSS](https://ifpb.github.io/css-guide/css/#how-to-apply-your-css-to-your-html): local (`style=""`), interna ([`<style>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/style)), externa ([`<link>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link))
+  - [Origem do CSS](https://ifpb.github.io/css-guide/css/problem.html)
+  - [Declarações do CSS](https://ifpb.github.io/css-guide/css/css-local.html): local (`style=""`), interna ([`<style>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/style)), externa ([`<link>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link))
   - Sintaxe do CSS
-    - [Propriedades](https://ifpb.github.io/css-guide/css/#properties):
+    - [Propriedades](https://ifpb.github.io/css-guide/css/properties.html):
       - Texto & Fonte
         - `color`
         - `font-size`
-    - [Seletores básicos](https://ifpb.github.io/css-guide/css/#selectors): 
+    - [Seletores básicos](https://ifpb.github.io/css-guide/css/selectors.html): 
       - tipo (`elementname`)
         - Agrupamentos com [`<span>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/span) e [`<div>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div)
       - id (`#idname` e `id=""`)
@@ -169,15 +169,16 @@ https://www.w3.org/TR/2011/WD-html5-20110525/content-models.html#kinds-of-conten
 ---
 
 **Conteúdo:**
-- [Herança de estilo](https://ifpb.github.io/css-guide/css/#inheritance)
+- [Herança de estilo](https://ifpb.github.io/css-guide/css/inheritance.html)
 - [Inspecionando estilos dos Elementos](https://developers.google.com/web/tools/chrome-devtools/inspect-styles/): Analisando e editando estilos
 - Sintaxe do CSS
-  - [Funções](https://ifpb.github.io/css-guide/css/#functions)
-  - [Seletores](https://ifpb.github.io/css-guide/css/#selectors)
+  - [Funções](https://ifpb.github.io/css-guide/css/functions.html)
+  - [Seletores](https://ifpb.github.io/css-guide/css/selectors.html)
     - Básico: Atributo `[]`
     - Combinação: Child `A > B`, Descendant `A B`, Adjacent sibling `A + B`, General sibling `A ~ B`
     - Pseudo-class: `:hover`, `:first-child`, `:nth-child`
     - Pseudo-element: `::selection`
+  - [Values](https://ifpb.github.io/css-guide/css/values.html)
 
 **Reflexão**
 * Qual é a composição da sintaxe do CSS?
@@ -195,11 +196,11 @@ https://www.w3.org/TR/2011/WD-html5-20110525/content-models.html#kinds-of-conten
 
 **Conteúdo:**
 - Sintaxe do CSS
-  - [At-rules](https://ifpb.github.io/css-guide/css/#at-rules)
+  - [At-rules](https://ifpb.github.io/css-guide/css/at-rules.html)
     - @import
     - @font-face
     - @media
-  - [Media query](https://ifpb.github.io/css-guide/css/#media-queries)
+  - [Media query](https://ifpb.github.io/css-guide/css/media-queries.html)
     - Media types
     - Media features
     - Logical operators
@@ -236,7 +237,9 @@ https://www.w3.org/TR/2011/WD-html5-20110525/content-models.html#kinds-of-conten
 * Como estilizamos um hyperlink?
 
 **Exercício:**
-* No exercício [Adpatando a página de impressão](https://ifpb.github.io/css-exercises/css/customize-print/), crie alguns links e depois tente estilizá-los nos estados `:hover`, `:link`, `:active`, `:visited`, `:focus`. Alterando `color`, `outline`, `text-decoration`, `cursor`.
+* Acesse o artigo [Como Publicar no Jaguaribe Tech](https://medium.com/jaguaribetech/publicando-no-jaguaribe-tech-61907efc256c) do Blog [Jaguaritbe.tech](https://medium.com/jaguaribetech/), depois inspecione um título e parágrafo e analise quais estilos de alinhamento e aparência de texto eles possuem.
+* No artigo anterior a página possui vários hyperlinks, então usando a ferramenta de inspecionar elemento escolha três hyperlinks e descreva seus estilos nos estágios `hover`, `link`, `active`, `visited` e `focus`.
+* Monte uma página e crie alguns links definindo estilos (`color`, `outline`, `text-decoration` e `cursor`) nos estados `:hover`, `:link`, `:active`, `:visited`, `:focus`. Por exemplo, a aparência no estágio `link` e `visited` seriam com a mesma cor e sem sublinhado, e nos demais estados o link ficaria com sublinhado, sem `outline` e com um tom de cor semelhante ao estado `link`.
 
 ## \# 12 -  Estilizando Texto (25/04/2018)
 ---
@@ -309,6 +312,45 @@ https://www.w3.org/TR/2011/WD-html5-20110525/content-models.html#kinds-of-conten
 
 **Exercício:**
 * Analise o Box Model [desses títulos](https://ifpb.github.io/css-guide/css/box-model/index.html).
+* Crie o componente referente à figura a seguir usando conceitos de Box Model, contudo considere que:
+
+  * O conteúdo seria esse:
+
+  ```html
+  <!-- 
+    6% 43 New Tickets fa-chevron-up
+    -3% 17 Closed Today fa-chevron-down
+    9% 7 New Replies fa-chevron-up
+    3% 27.3K Followers fa-chevron-up
+    -2% $95 Daily Earnings fa-chevron-down
+    -1% 621 Products fa-chevron-down
+  -->
+  ```
+
+  * As cores utilizadas seriam:
+
+  ```
+  #cd201f (.text-red)
+  #5eba00 (.text-green)
+  #6c757d (.text-muted)
+  ```
+
+  * Que a estrutura de cada `card` seja definida por:
+
+  ```html
+  <div class="card">
+    <div class="card-body text-center">
+      <div class="text-right text-green">
+        6%
+        <i class="fa fa-chevron-up"></i>
+      </div>
+      <h1>43</h1>
+      <div class="text-muted">New Tickets</div>
+    </div>
+  </div>
+  ```
+
+  ![Stats](https://ifpb.github.io/css-exercises/challenges/packages/bootstrap/dashboard-monitor/assets/component1.png)
 
 <!-- 
 ## \# 16 - Box Model (09/05/2018)
