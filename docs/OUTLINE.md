@@ -76,11 +76,11 @@
 - [Sintaxe do HTML](https://ifpb.github.io/html-guide/html/)
   - Tags, atributos (`charset` do meta e `lang` no html), entidades e comentários
   - Como acessar a documentação de uma tag ou atributo usando o portal [MDN](https://developer.mozilla.org/kab/docs/Web/HTML)
-- [Listas `<ol>`, `<ul>`, `<dl>`](https://ifpb.github.io/html-guide/html/#lists)
+- [Listas `<ol>`, `<ul>`, `<dl>`](https://ifpb.github.io/html-guide/html/list.html)
   - Definição, Ordenada, Não ordenado
   - Personalizando marcadores
   - Lista aninhada
-- [Hyperlink `<a>`](https://ifpb.github.io/html-guide/html/#hyperlink)
+- [Hyperlink `<a>`](https://ifpb.github.io/html-guide/html/hyperlink.html)
   - Endereço absoluto e relativo
   - Abrindo recurso em nova aba
   - Links locais e externos
@@ -113,7 +113,7 @@ https://www.w3.org/TR/2011/WD-html5-20110525/content-models.html#kinds-of-conten
 
 **Conteúdo:**
 - Analisando a Página de LM
-- [Imagem `<img>`, `<figure>`, `<figcaption>`](https://ifpb.github.io/html-guide/html/#image-and-multimedia)
+- [Imagem `<img>`, `<figure>`, `<figcaption>`](https://ifpb.github.io/html-guide/html/image-multimedia.html)
   - Imagem dentro (Data URI), próximo ou distante do HTML
     - Custos e benefícios
   - Atributos: `src`, `alt`, `width`, `title`
