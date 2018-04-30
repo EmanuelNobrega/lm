@@ -237,7 +237,7 @@ https://www.w3.org/TR/2011/WD-html5-20110525/content-models.html#kinds-of-conten
 * Como estilizamos um hyperlink?
 
 **Exercício:**
-* Acesse o artigo [Como Publicar no Jaguaribe Tech](https://medium.com/jaguaribetech/publicando-no-jaguaribe-tech-61907efc256c) do Blog [Jaguaritbe.tech](https://medium.com/jaguaribetech/), depois inspecione um título e parágrafo e analise quais estilos de alinhamento e aparência de texto eles possuem.
+* Acesse o artigo [Como Publicar no Jaguaribe Tech](https://medium.com/jaguaribetech/publicando-no-jaguaribe-tech-61907efc256c) do Blog [Jaguaritbe.tech](https://medium.com/jaguaribetech/), depois inspecione um título e um parágrafo para analisar quais estilos de alinhamento e aparência de texto eles possuem.
 * No artigo anterior a página possui vários hyperlinks, então usando a ferramenta de inspecionar elemento escolha três hyperlinks e descreva seus estilos nos estágios `hover`, `link`, `active`, `visited` e `focus`.
 * Monte uma página e crie alguns links definindo estilos (`color`, `outline`, `text-decoration` e `cursor`) nos estados `:hover`, `:link`, `:active`, `:visited`, `:focus`. Por exemplo, a aparência no estágio `link` e `visited` seriam com a mesma cor e sem sublinhado, e nos demais estados o link ficaria com sublinhado, sem `outline` e com um tom de cor semelhante ao estado `link`.
 
@@ -299,16 +299,16 @@ https://www.w3.org/TR/2011/WD-html5-20110525/content-models.html#kinds-of-conten
 - [Box model](https://ifpb.github.io/css-guide/css/box-model.html)
 
 **Reflexão**
-* O que é box model? Quais estilos podemos aplicar em um Box?
-* Como um box pode ser exibido no navegador?
+* O que é box model? Como um box pode ser exibido no navegador?
 * Por que o W3C considera os elementos HTML [deste link](https://developer.mozilla.org/en-US/docs/Web/HTML/Element#Inline_text_semantics) como inline?
 * Existe alguma exceção de elemento inline que permite definir largura?
+* Quais estilos podemos aplicar em um Box?
 * É possível personalizar o estilo de alguma borda específica? Por exemplo, a borda inferior?
 * Como centralizamos um parágrafo de largura pré-definida?
 * Qual é a melhor maneira de definir altura de um Box sem gerar problemas de alinhamento vertical?
 * É possível deixar uma borda arredonda nas quinas?
 * Como funcionar a sombra para um Box?
-* Como apresentar uma tabela em uma grid contínua sem espaçamento?
+* Como apresentar uma tabela em uma grid contínua sem espaçamento entre as bordas?
 
 **Exercício:**
 * Analise o Box Model [desses títulos](https://ifpb.github.io/css-guide/css/box-model/index.html).
