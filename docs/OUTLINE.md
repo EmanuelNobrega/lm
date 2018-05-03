@@ -312,13 +312,13 @@ https://www.w3.org/TR/2011/WD-html5-20110525/content-models.html#kinds-of-conten
 
 **Exercício:**
 * Analise o Box Model [desses títulos](https://ifpb.github.io/css-guide/css/box-model/index.html).
-* Crie o componente referente à figura a seguir usando conceitos de Box Model:
+* Crie o componente referente à figura a seguir do Layout [Tabler](https://tabler.github.io/) usando conceitos de Box Model:
   
   ![Stats](https://ifpb.github.io/css-exercises/challenges/packages/bootstrap/dashboard-monitor/assets/component1.png)
 
-  contudo considere que:
+  veja que na figura existe seis `card`s, contudo considere que:
 
-  * O conteúdo seria esse:
+  * O conteúdo de cada `card` seria esse:
 
   ```html
   <!-- 
@@ -329,14 +329,6 @@ https://www.w3.org/TR/2011/WD-html5-20110525/content-models.html#kinds-of-conten
     -2% $95 Daily Earnings fa-chevron-down
     -1% 621 Products fa-chevron-down
   -->
-  ```
-
-  * As cores utilizadas seriam:
-
-  ```
-  #cd201f (.text-red)
-  #5eba00 (.text-green)
-  #6c757d (.text-muted)
   ```
 
   * A estrutura de cada `card` seja definida por:
@@ -353,6 +345,24 @@ https://www.w3.org/TR/2011/WD-html5-20110525/content-models.html#kinds-of-conten
     </div>
   </div>
   ```
+
+  * As cores utilizadas seriam:
+
+  ```
+  #cd201f (.text-red)
+  #5eba00 (.text-green)
+  #6c757d (.text-muted)
+  ```
+
+  * Em cada `card` as bordas devem apresentar esse estilo:
+
+  ```css
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(0, 40, 100, 0.12);
+  border-radius: 3px;
+  ```
+
+  * A fonte utilizada é a [Source Sans Pro](https://fonts.google.com/specimen/Source+Sans+Pro).
 
 <!-- 
 ## \# 16 - Box Model (09/05/2018)
