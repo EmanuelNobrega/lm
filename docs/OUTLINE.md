@@ -312,7 +312,11 @@ https://www.w3.org/TR/2011/WD-html5-20110525/content-models.html#kinds-of-conten
 
 **Exercício:**
 * Analise o Box Model [desses títulos](https://ifpb.github.io/css-guide/css/box-model/index.html).
-* Crie o componente referente à figura a seguir usando conceitos de Box Model, contudo considere que:
+* Crie o componente referente à figura a seguir usando conceitos de Box Model:
+  
+  ![Stats](https://ifpb.github.io/css-exercises/challenges/packages/bootstrap/dashboard-monitor/assets/component1.png)
+
+  contudo considere que:
 
   * O conteúdo seria esse:
 
@@ -335,7 +339,7 @@ https://www.w3.org/TR/2011/WD-html5-20110525/content-models.html#kinds-of-conten
   #6c757d (.text-muted)
   ```
 
-  * Que a estrutura de cada `card` seja definida por:
+  * A estrutura de cada `card` seja definida por:
 
   ```html
   <div class="card">
@@ -349,8 +353,6 @@ https://www.w3.org/TR/2011/WD-html5-20110525/content-models.html#kinds-of-conten
     </div>
   </div>
   ```
-
-  ![Stats](https://ifpb.github.io/css-exercises/challenges/packages/bootstrap/dashboard-monitor/assets/component1.png)
 
 <!-- 
 ## \# 16 - Box Model (09/05/2018)
