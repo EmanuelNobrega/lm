@@ -316,7 +316,7 @@ https://www.w3.org/TR/2011/WD-html5-20110525/content-models.html#kinds-of-conten
   
   ![Stats](https://ifpb.github.io/css-exercises/challenges/packages/bootstrap/dashboard-monitor/assets/component1.png)
 
-  veja que na figura existe seis `card`s, contudo considere que:
+  veja que na figura existe seis `card`, contudo considere que:
 
   * O conteúdo de cada `card` seria esse:
 
@@ -357,9 +357,11 @@ https://www.w3.org/TR/2011/WD-html5-20110525/content-models.html#kinds-of-conten
   * Em cada `card` as bordas devem apresentar esse estilo:
 
   ```css
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-  border: 1px solid rgba(0, 40, 100, 0.12);
-  border-radius: 3px;
+  .card {
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(0, 40, 100, 0.12);
+    border-radius: 3px;
+  }
   ```
 
   * A fonte utilizada é a [Source Sans Pro](https://fonts.google.com/specimen/Source+Sans+Pro).
