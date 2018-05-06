@@ -76,11 +76,11 @@
 - [Sintaxe do HTML](https://ifpb.github.io/html-guide/html/)
   - Tags, atributos (`charset` do meta e `lang` no html), entidades e comentários
   - Como acessar a documentação de uma tag ou atributo usando o portal [MDN](https://developer.mozilla.org/kab/docs/Web/HTML)
-- [Listas `<ol>`, `<ul>`, `<dl>`](https://ifpb.github.io/html-guide/html/list.html)
+- [Listas `<ol>`, `<ul>`, `<dl>`](https://ifpb.github.io/html-guide/html/list/)
   - Definição, Ordenada, Não ordenado
   - Personalizando marcadores
   - Lista aninhada
-- [Hyperlink `<a>`](https://ifpb.github.io/html-guide/html/hyperlink.html)
+- [Hyperlink `<a>`](https://ifpb.github.io/html-guide/html/hyperlink/)
   - Endereço absoluto e relativo
   - Abrindo recurso em nova aba
   - Links locais e externos
@@ -113,7 +113,7 @@ https://www.w3.org/TR/2011/WD-html5-20110525/content-models.html#kinds-of-conten
 
 **Conteúdo:**
 - Analisando a Página de LM
-- [Imagem `<img>`, `<figure>`, `<figcaption>`](https://ifpb.github.io/html-guide/html/image-multimedia.html)
+- [Imagem `<img>`, `<figure>`, `<figcaption>`](https://ifpb.github.io/html-guide/html/image-multimedia/)
   - Imagem dentro (Data URI), próximo ou distante do HTML
     - Custos e benefícios
   - Atributos: `src`, `alt`, `width`, `title`
@@ -140,13 +140,13 @@ https://www.w3.org/TR/2011/WD-html5-20110525/content-models.html#kinds-of-conten
   - Definição e exemplos
 - [Cascade Style Sheet (CSS)](https://ifpb.github.io/css-guide/css/)
   - [Origem do CSS](https://ifpb.github.io/css-guide/css/problem.html)
-  - [Declarações do CSS](https://ifpb.github.io/css-guide/css/css-local.html): local (`style=""`), interna ([`<style>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/style)), externa ([`<link>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link))
+  - [Declarações do CSS](https://ifpb.github.io/css-guide/css/stylesheet/): local (`style=""`), interna ([`<style>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/style)), externa ([`<link>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link))
   - Sintaxe do CSS
-    - [Propriedades](https://ifpb.github.io/css-guide/css/properties.html):
+    - [Propriedades](https://ifpb.github.io/css-guide/css/property/):
       - Texto & Fonte
         - `color`
         - `font-size`
-    - [Seletores básicos](https://ifpb.github.io/css-guide/css/selectors.html): 
+    - [Seletores básicos](https://ifpb.github.io/css-guide/css/selector/): 
       - tipo (`elementname`)
         - Agrupamentos com [`<span>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/span) e [`<div>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div)
       - id (`#idname` e `id=""`)
@@ -169,16 +169,16 @@ https://www.w3.org/TR/2011/WD-html5-20110525/content-models.html#kinds-of-conten
 ---
 
 **Conteúdo:**
-- [Herança de estilo](https://ifpb.github.io/css-guide/css/inheritance.html)
+- [Herança de estilo](https://ifpb.github.io/css-guide/css/inheritance/)
 - [Inspecionando estilos dos Elementos](https://developers.google.com/web/tools/chrome-devtools/inspect-styles/): Analisando e editando estilos
 - Sintaxe do CSS
-  - [Funções](https://ifpb.github.io/css-guide/css/functions.html)
-  - [Seletores](https://ifpb.github.io/css-guide/css/selectors.html)
+  - [Funções](https://ifpb.github.io/css-guide/css/function/)
+  - [Seletores](https://ifpb.github.io/css-guide/css/selector/)
     - Básico: Atributo `[]`
     - Combinação: Child `A > B`, Descendant `A B`, Adjacent sibling `A + B`, General sibling `A ~ B`
     - Pseudo-class: `:hover`, `:first-child`, `:nth-child`
     - Pseudo-element: `::selection`
-  - [Values](https://ifpb.github.io/css-guide/css/values.html)
+  - [Values](https://ifpb.github.io/css-guide/css/property/values.html)
 
 **Reflexão**
 * Qual é a composição da sintaxe do CSS?
@@ -196,11 +196,11 @@ https://www.w3.org/TR/2011/WD-html5-20110525/content-models.html#kinds-of-conten
 
 **Conteúdo:**
 - Sintaxe do CSS
-  - [At-rules](https://ifpb.github.io/css-guide/css/at-rules.html)
+  - [At-rules](https://ifpb.github.io/css-guide/css/at-rules/)
     - @import
     - @font-face
     - @media
-  - [Media query](https://ifpb.github.io/css-guide/css/media-queries.html)
+  - [Media query](https://ifpb.github.io/css-guide/css/media-queries/)
     - Media types
     - Media features
     - Logical operators
@@ -219,8 +219,8 @@ https://www.w3.org/TR/2011/WD-html5-20110525/content-models.html#kinds-of-conten
 ---
 
 **Conteúdo:**
-- [Estilizando Texto](https://ifpb.github.io/css-guide/css/typography.html) ([Texto e fonte](https://ifpb.github.io/css-guide/css/typography.html#text-and-font), [Alinhamento de Texto](https://ifpb.github.io/css-guide/css/typography.html#text-layout))
-- [Estilizando links](https://ifpb.github.io/css-guide/css/links.html)
+- [Estilizando Texto](https://ifpb.github.io/css-guide/css/typography/) ([Texto e fonte](https://ifpb.github.io/css-guide/css/typography.html#text-and-font), [Alinhamento de Texto](https://ifpb.github.io/css-guide/css/typography.html#text-layout))
+- [Estilizando links](https://ifpb.github.io/css-guide/css/hyperlink/)
   - pseudo-class selector: `:hover`, `:link`, `:active`, `:visited`, `:focus`
 
 **Reflexão**
@@ -245,8 +245,8 @@ https://www.w3.org/TR/2011/WD-html5-20110525/content-models.html#kinds-of-conten
 ---
 
 **Conteúdo:**
-- [Estilizando Texto](https://ifpb.github.io/css-guide/css/typography.html)
-- [Estilizando links](https://ifpb.github.io/css-guide/css/links.html)
+- [Estilizando Texto](https://ifpb.github.io/css-guide/css/typography/)
+- [Estilizando links](https://ifpb.github.io/css-guide/css/links/)
 
 **Reflexão**
 * Quais são os estilos de alinhamento e aparência para fonte?
@@ -259,8 +259,8 @@ https://www.w3.org/TR/2011/WD-html5-20110525/content-models.html#kinds-of-conten
 ---
 
 **Conteúdo:**
-- [Web Fontes](https://ifpb.github.io/css-guide/css/web-font.html)
-- [Ícones](https://ifpb.github.io/css-guide/css/icon.html)
+- [Web Fontes](https://ifpb.github.io/css-guide/css/web-font/)
+- [Ícones](https://ifpb.github.io/css-guide/css/icon/)
 
 **Reflexão**
 * Quais são as configurações existentes para habilitar uma fonte da Web? É possível usar múltiplas fontes da Web?
@@ -279,7 +279,7 @@ https://www.w3.org/TR/2011/WD-html5-20110525/content-models.html#kinds-of-conten
 ---
 
 **Conteúdo:**
-- [Cascata](https://ifpb.github.io/css-guide/css/cascade.html)
+- [Cascata](https://ifpb.github.io/css-guide/css/cascade/)
 
 **Reflexão**
 * Como é definido a ordem de cascata do CSS?
@@ -296,14 +296,14 @@ https://www.w3.org/TR/2011/WD-html5-20110525/content-models.html#kinds-of-conten
 ---
 
 **Conteúdo:**
-- [Box model](https://ifpb.github.io/css-guide/css/box-model.html)
+- [Box model](https://ifpb.github.io/css-guide/css/box-model/)
 
 **Reflexão**
 * O que é box model? Como um box pode ser exibido no navegador?
 * Por que o W3C considera os elementos HTML [deste link](https://developer.mozilla.org/en-US/docs/Web/HTML/Element#Inline_text_semantics) como inline?
 * Existe alguma exceção de elemento inline que permite definir largura?
 * Quais estilos podemos aplicar em um Box?
-* É possível personalizar o estilo de alguma borda específica? Por exemplo, a borda inferior?
+* É possível personalizar o estilo de alguma borda específica? Por exemplo, a borda inferior? E no chrome, como é calculado o `em` para margens?
 * Como centralizamos um parágrafo de largura pré-definida?
 * Qual é a melhor maneira de definir altura de um Box sem gerar problemas de alinhamento vertical?
 * É possível deixar uma borda arredonda nas quinas?
@@ -311,12 +311,12 @@ https://www.w3.org/TR/2011/WD-html5-20110525/content-models.html#kinds-of-conten
 * Como apresentar uma tabela em uma grid contínua sem espaçamento entre as bordas?
 
 **Exercício:**
-* Analise o Box Model [desses títulos](https://ifpb.github.io/css-guide/css/box-model/index.html).
+* Analise o Box Model [desses títulos](https://ifpb.github.io/css-guide/css/box-model/).
 * Crie o componente referente à figura a seguir do Layout [Tabler](https://tabler.github.io/) usando conceitos de Box Model:
   
   ![Stats](https://ifpb.github.io/css-exercises/challenges/packages/bootstrap/dashboard-monitor/assets/component1.png)
 
-  veja que na figura existe seis `card`, contudo considere que:
+  veja que na figura existe seis caixas (`card`), contudo considere que:
 
   * O conteúdo de cada `card` seria esse:
 
@@ -381,7 +381,7 @@ https://www.w3.org/TR/2011/WD-html5-20110525/content-models.html#kinds-of-conten
 ---
 
 **Conteúdo:**
-* [Background](https://ifpb.github.io/css-guide/css/background.html)
+* [Background](https://ifpb.github.io/css-guide/css/background/)
 
 **Reflexão**
 
@@ -391,8 +391,8 @@ https://www.w3.org/TR/2011/WD-html5-20110525/content-models.html#kinds-of-conten
 ---
 
 **Conteúdo:**
-* [Tabela](https://ifpb.github.io/css-guide/css/table.html)
-* [Lista](https://ifpb.github.io/css-guide/css/list.html)
+* [Tabela](https://ifpb.github.io/css-guide/css/table/)
+* [Lista](https://ifpb.github.io/css-guide/css/list/)
 
 **Reflexão**
 
