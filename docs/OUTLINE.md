@@ -15,6 +15,8 @@
 [\# 13 -  Web Fonts e Ícones (27/04/2018)](#-13----web-fonts-e-ícones-27042018)<br>
 [\# 14 - Cascata no CSS (02/05/2018)](#-14---cascata-no-css-02052018)<br>
 [\# 15 - Box Model (04/05/2018)](#-15---box-model-04052018)<br>
+[\# 16 - Estilizando Tabelas (09/05/2018)](#-16---estilizando-tabelas-09052018)<br>
+[\# 17 - Curriculum Viate com Layout Básico (11/05/2018)](#-17---curriculum-viate-com-layout-básico-11052018)<br>
 
 ## \# 01 - Apresentação da Disciplina (14/03/2018)
 ---
@@ -366,18 +368,33 @@ https://www.w3.org/TR/2011/WD-html5-20110525/content-models.html#kinds-of-conten
 
   * A fonte utilizada é a [Source Sans Pro](https://fonts.google.com/specimen/Source+Sans+Pro).
 
-<!-- 
-## \# 16 - Box Model (09/05/2018)
+## \# 16 - Estilizando Tabelas (09/05/2018)
 ---
 
 **Conteúdo:**
+- [Criando Tabelas](https://ifpb.github.io/html-guide/html/table/)
+- [Estilizando Tabelas](https://ifpb.github.io/css-guide/css/table/)
 
 **Reflexão**
 
 **Exercício:**
-* [Styling links as buttons \| W3C](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Styling_links#Styling_links_as_buttons)
+* [Estilizando tabelas](https://ifpb.github.io/css-exercises/css/table-css/)
 
-## \# 17 - Backgound (11/05/2018)
+## \# 17 - Curriculum Viate com Layout Básico (11/05/2018)
+---
+
+**Conteúdo:**
+- [Box model](https://ifpb.github.io/css-guide/css/box-model/)
+
+**Reflexão**
+
+**Exercício:**
+* [Curriculum Viate com layout básico](https://ifpb.github.io/css-exercises/css/curriculum-style-layout/)
+
+<!-- 
+[Styling links as buttons \| W3C](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Styling_links#Styling_links_as_buttons)
+
+## \# 18 - Backgound (16/05/2018)
 ---
 
 **Conteúdo:**
@@ -387,19 +404,7 @@ https://www.w3.org/TR/2011/WD-html5-20110525/content-models.html#kinds-of-conten
 
 **Exercício:**
 
-## \# 18 - Estilizando Tabela e Lista (16/05/2018)
----
-
-**Conteúdo:**
-* [Tabela](https://ifpb.github.io/css-guide/css/table/)
-* [Lista](https://ifpb.github.io/css-guide/css/list/)
-
-**Reflexão**
-
-**Exercício:**
-* [Estilizando tabelas](https://ifpb.github.io/css-exercises/css/table-css/)
-
-## \# 19 - Curriculum Viate com Layout Básico (18/05/2018)
+## \# 19 -  (18/05/2018)
 ---
 
 **Conteúdo:**
@@ -407,7 +412,7 @@ https://www.w3.org/TR/2011/WD-html5-20110525/content-models.html#kinds-of-conten
 **Reflexão**
 
 **Exercício:**
-* [Curriculum Viate com layout básico](https://ifpb.github.io/css-exercises/css/curriculum-style-layout/)
+
 
 ## \# 20 - Simulado I de HTML e CSS (23/05/2018)
 ---
