@@ -376,6 +376,12 @@ https://www.w3.org/TR/2011/WD-html5-20110525/content-models.html#kinds-of-conten
 - [Estilizando Tabelas](https://ifpb.github.io/css-guide/css/table/)
 
 **Reflexão**
+* Quando devemos utilizar tabelas no HTML?
+* A tabela pode definir layout de uma página? Isso é recomendado?
+* Como criamos cabeçalhos na tabela?
+* Como expandir as células de uma tabela?
+* Os estilos de box model podem ser aplicados em tabela?
+* Como colapsamos as bordas de uma tabela?
 
 **Exercício:**
 * [Estilizando tabelas](https://ifpb.github.io/css-exercises/css/table-css/)
@@ -387,6 +393,7 @@ https://www.w3.org/TR/2011/WD-html5-20110525/content-models.html#kinds-of-conten
 - [Box model](https://ifpb.github.io/css-guide/css/box-model/)
 
 **Reflexão**
+* Quais são os estilos de box model?
 
 **Exercício:**
 * [Curriculum Viate com layout básico](https://ifpb.github.io/css-exercises/css/curriculum-style-layout/)
