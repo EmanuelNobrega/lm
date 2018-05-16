@@ -17,6 +17,8 @@
 [\# 15 - Box Model (04/05/2018)](#-15---box-model-04052018)<br>
 [\# 16 - Estilizando Tabelas (09/05/2018)](#-16---estilizando-tabelas-09052018)<br>
 [\# 17 - Curriculum Viate com Layout Básico (11/05/2018)](#-17---curriculum-viate-com-layout-básico-11052018)<br>
+[\# 18 - Simulado I de HTML e CSS (16/05/2018)](#-18---simulado-i-de-html-e-css-16052018)<br>
+[\# 19 - Avaliação I de HTML e CSS (18/05/2018)](#-19---avaliação-i-de-html-e-css-18052018)<br>
 
 ## \# 01 - Apresentação da Disciplina (14/03/2018)
 ---
@@ -377,6 +379,7 @@ https://www.w3.org/TR/2011/WD-html5-20110525/content-models.html#kinds-of-conten
 
 **Reflexão**
 * Quando devemos utilizar tabelas no HTML?
+* Como é definido a largura de uma tabela?
 * A tabela pode definir layout de uma página? Isso é recomendado?
 * Como criamos cabeçalhos na tabela?
 * Como expandir as células de uma tabela?
@@ -398,33 +401,37 @@ https://www.w3.org/TR/2011/WD-html5-20110525/content-models.html#kinds-of-conten
 **Exercício:**
 * [Curriculum Viate com layout básico](https://ifpb.github.io/css-exercises/css/curriculum-style-layout/)
 
-<!-- 
-[Styling links as buttons \| W3C](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Styling_links#Styling_links_as_buttons)
 
-## \# 18 - Backgound (16/05/2018)
+## \# 18 - Simulado I de HTML e CSS (16/05/2018)
 ---
 
 **Conteúdo:**
+- [CSS Guide](https://ifpb.github.io/css-guide/css/)
+- [HTML Guide](https://ifpb.github.io/html-guide/html/)
+
+**Reflexão**
+* O que é possível fazer com o HTML e CSS até o momento?
+
+**Exercício:**
+- Simulado:
+  - [Profile Simples](https://ifpb.github.io/css-exercises/challenges/css/profile-simple/)
+  - [Curriculum Vitae](https://ifpb.github.io/css-exercises/challenges/css/curriculum-vitae/)
+- Outros exercícios de [HTML](https://ifpb.github.io/html-exercises/) e [CSS](https://ifpb.github.io/css-exercises/)
+
+## \# 19 - Avaliação I de HTML e CSS (18/05/2018)
+---
+
+> Todos os detalhes da avaliação estão disponíveis nesta [página](../exams/prova-html-css-1.md)
+
+<!-- 
+* [Styling links as buttons \| W3C](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Styling_links#Styling_links_as_buttons)
+Backgound
 * [Background](https://ifpb.github.io/css-guide/css/background/)
 
-**Reflexão**
-
-**Exercício:**
-
-## \# 19 -  (18/05/2018)
+## \# 20 -  (23/05/2018)
 ---
 
-**Conteúdo:**
-
-**Reflexão**
-
-**Exercício:**
-
-
-## \# 20 - Simulado I de HTML e CSS (23/05/2018)
----
-
-## \# 21 - Avaliação I de HTML e CSS (25/05/2018)
+## \# 21 -  (25/05/2018)
 ---
 
 ## \# 22 - Apresentação do Projeto e do Blog
