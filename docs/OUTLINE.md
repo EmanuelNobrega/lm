@@ -19,6 +19,8 @@
 [\# 17 - Curriculum Viate com Layout Básico (11/05/2018)](#-17---curriculum-viate-com-layout-básico-11052018)<br>
 [\# 18 - Simulado I de HTML e CSS (16/05/2018)](#-18---simulado-i-de-html-e-css-16052018)<br>
 [\# 19 - Avaliação I de HTML e CSS (18/05/2018)](#-19---avaliação-i-de-html-e-css-18052018)<br>
+[\# 20 - Apresentação do Projeto e do Blog (23/05/2018)](#-20---apresentação-do-projeto-e-do-blog-23052018)<br>
+[\# 21 - Apresentação das propostas de Projetos (25/05/2018)](#-21---apresentação-das-propostas-de-projetos-25052018)<br>
 
 ## \# 01 - Apresentação da Disciplina (14/03/2018)
 ---
