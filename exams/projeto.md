@@ -1,20 +1,18 @@
 # ESPECIFICAÇÃO DO PROJETO
 
-## Descrição do Projeto
+## Descrição
+---
 
-* * *
-
-A disciplina de Linguagem de Marcação tem como objetivo principal fazer com que os alunos compreendam a utilização de algumas ferramentas Front-end em um sistema Web. Portanto, os alunos deverão aplicar os conhecimentos adquiridos durante o curso de Linguagem de Marcação em um projeto e também devem buscar referências externas, além do que foi discutido em sala de aula.
+A disciplina de Linguagem de Marcação tem como objetivo principal fazer com que os alunos compreendam a utilização de algumas ferramentas Front-end em um sistema Web. Portanto, os alunos deverão aplicar os conhecimentos adquiridos durante a disciplina de Linguagem de Marcação em um projeto e também devem buscar referências externas, além do que foi discutido em sala de aula.
 
 Em relação ao escopo do projeto a escolha do seu tema será livre, ou seja, a definição do domínio de negócio, layout, funcionalidades e navegabilidade serão definidos pelos membros do projeto. Mas, podem seguir alguns critérios de [experiência do usuário](https://developers.google.com/web/fundamentals/design-and-ux/ux-basics/).
 
 A seguir, serão apresentados maiores detalhes do projeto.
 
-## Apresentação do Tema do Projeto
+## Apresentação do Tema
+---
 
-* * *
-
-Para ajudar na definição do tema central do projeto, que pode ser feito até com **três pessoas**, será exigido que cada projeto seja resumidamente apresentado em sala, oralmente, por cada um de seus integrantes, em data a ser definida.
+Para ajudar na definição do tema central do projeto, que pode ser composto por até **três pessoas**, será exigido que cada projeto seja resumidamente apresentado em sala, oralmente, por cada um de seus integrantes, em data a ser definida.
 
 Assim, será exigido que a apresentação possua um tempo máximo de 3 minutos e contemple:
 
@@ -22,9 +20,7 @@ Assim, será exigido que a apresentação possua um tempo máximo de 3 minutos e
 * Alguma seleção de telas de sistemas existentes que façam algo semelhante ao que será proposto, ou seja, não precisamos reinventar a roda sempre;
 * Por fim, deve-se apresentar alguns esboços de tela de como a equipe enxerga o protótipo final do projeto, pode ser até mesmo esquemas no papel, pois o que importa é que fique claro as interações do sistema e sua navegabilidade.
 
-### Descrição do Tema
-
-A princípio, os projetos devem ser armazenados no [github](http://github.com/) e em seu raiz deve apresentar um arquivo `README.md` contendo a seguinte estrutura:
+A princípio, os projetos devem ser armazenados no [github](http://github.com/) e em sua raiz deve apresentar um arquivo `README.md` contendo a seguinte estrutura:
 
 > &#35; NOME-DO-PROJETO<br>
 > &#35;&#35; Descrição<br>
@@ -34,16 +30,24 @@ A princípio, os projetos devem ser armazenados no [github](http://github.com/) 
 
 ### Equipes
 
-Para facilitar a listagem dos temas, todos os interessados devem declarar suas propostas [neste documento](https://padlet.com/lucachaves/projetolm20172).
+Para facilitar a listagem dos temas, todos os interessados devem declarar suas propostas [neste padlet](https://padlet.com/lucachaves/projetolm20181) seguindo esse formato de card:
 
-**Equipe 1#**: [Nome](https://github.com/username/repo)
+```
+Título/Tema do Projeto
 
-> Membros:
-> * Nome do Aluno - Matrícula
+Descrição:
+Resumidamente descreva a ideia central do seu projeto
 
-## Exigências do Projeto
+Equipe:
+- Nome do Aluno 1 (matricula)
+- Nome do Aluno 2 (matricula)
 
-* * *
+Repositório:
+http://github.com/link-do-repositorio
+```
+
+## Requisitos
+---
 
 Nesta seção será apresentada as exigências do projeto que nortearam os critérios da avaliação final.
 
@@ -83,14 +87,13 @@ Nota** |  |  |  |
 
 Devido a maleabilidade do tema central do projeto, também foi definido que o tema não entraria no critério de avalição dessa atividade, o que de certa forma permitirá que as equipes explorem e desenvolvam suas criatividades.
 
->Mas, um ponto importante, é que ocorrerão penalizações quando houver falta de usabilidade, de domínio do projeto e de cumprimento no prazo estipulado para apresentação e entrega do projeto. Também vale salientar que sua validade será perdida caso não seja:
+> Mas, um ponto importante, é que ocorrerão penalizações quando houver falta de usabilidade, de domínio do projeto e de cumprimento no prazo estipulado para apresentação e entrega do projeto. Também vale salientar que sua validade será perdida caso não seja:
 >
 >  * Apresentado na data marcada;
 >  * Entregue o endereço do repositório contendo todo o código fonte e material exigido.
 
 ## Apresentação Final do Projeto
-
-* * *
+---
 
 O projeto deverá ser entregue no último dia de aula da disciplina através de um projeto no [github](https://github.com/), e cada integrante deverá apresentar individualmente suas implementações no projeto,  de tal forma que a nota final será computada seguindo as exigências do projeto.
 

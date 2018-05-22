@@ -423,24 +423,29 @@ https://www.w3.org/TR/2011/WD-html5-20110525/content-models.html#kinds-of-conten
 
 > Todos os detalhes da avaliação estão disponíveis nesta [página](../exams/prova-html-css-1.md)
 
+## \# 20 - Apresentação do Projeto e do Blog (23/05/2018)
+---
+
+> Critérios de [avaliação do artigo](../exams/blog.md) no [Jaguaribe.tech](https://medium.com/jaguaribetech) e do [projeto final](../exams/projeto.md)
+
+## \# 21 - Apresentação das propostas de Projetos (25/05/2018)
+---
+
+> A ordem de apresentação estará disponível nessa [página](../exams/projeto.md).
+
 <!-- 
-* [Styling links as buttons \| W3C](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Styling_links#Styling_links_as_buttons)
+
 Backgound
 * [Background](https://ifpb.github.io/css-guide/css/background/)
+Flexbox
 
-## \# 20 -  (23/05/2018)
+## \# 22 - 
 ---
 
-## \# 21 -  (25/05/2018)
+## \# 23 - 
 ---
 
-## \# 22 - Apresentação do Projeto e do Blog
----
-
-## \# 23 - Apresentação das propostas de Projetos
----
-
-## \# 24 - Flexbox
+## \# 24 - 
 ---
 
 **Conteúdo:**
